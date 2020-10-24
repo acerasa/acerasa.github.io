@@ -1,0 +1,27 @@
+body    { background: #ffee99 none no-repeat 0 0 !important;}
+.bg {
+  background: url('/images/acerasa.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 150px;  
+}
+
+.carousel-caption>h2 {
+    font-size: 1.2em;
+    margin-bottom: 0px;
+    opacity: 0.8;
+}
+
+.carousel-caption {
+    padding: 0px 0;
+}
+
+@media (min-width: 576px) { 
+    .carousel-caption>h2 {
+        font-size: 2em;
+        }
+    .carousel-caption {
+        padding: 20px 0 
+    }
+}
